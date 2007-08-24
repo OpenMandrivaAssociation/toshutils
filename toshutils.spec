@@ -4,13 +4,13 @@ Name: 		toshutils
 Release: 	%mkrel 3
 License: 	GPL
 Group: 		Monitoring
-Source: 	http://www.buzzard.org.uk/toshiba/downloads/%{name}-%{version}.tar.bz2
+Source: 	http://www.buzzard.me.uk/toshiba/%{name}-%{version}.tar.bz2
 Patch0:		toshutils-2.0.1-module.patch.bz2
 Patch1:		toshutils-2.0.1-devfs.patch.bz2
 Patch2:		toshutils-2.0.1-crash.patch.bz2
 Patch3:		toshutils-2.0.1-x86_64-support.patch.bz2
 Patch4:		toshutils-2.0.1-gcc4.patch.bz2
-URL: 		http://www.buzzard.org.uk/toshiba/
+URL: 		http://www.buzzard.me.uk/toshiba/index.html
 BuildRequires:	gtk+1.2-devel X11-devel
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
