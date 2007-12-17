@@ -12,7 +12,6 @@ Patch3:		toshutils-2.0.1-x86_64-support.patch.bz2
 Patch4:		toshutils-2.0.1-gcc4.patch.bz2
 URL: 		http://www.buzzard.me.uk/toshiba/index.html
 BuildRequires:	gtk+1.2-devel X11-devel
-BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This is a collection of utilities to control a Toshiba laptop. It includes
