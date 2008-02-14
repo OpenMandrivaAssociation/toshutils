@@ -4,6 +4,7 @@ Name: 		toshutils
 Release: 	%mkrel 3
 License: 	GPL
 Group: 		Monitoring
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source: 	http://www.buzzard.me.uk/toshiba/%{name}-%{version}.tar.bz2
 Patch0:		toshutils-2.0.1-module.patch.bz2
 Patch1:		toshutils-2.0.1-devfs.patch.bz2
