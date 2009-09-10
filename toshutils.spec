@@ -1,7 +1,7 @@
 Version: 	2.0.1
 Summary: 	Toshiba laptop utilities
 Name: 		toshutils
-Release: 	%mkrel 4
+Release: 	%mkrel 5
 License: 	GPL
 Group: 		Monitoring
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
