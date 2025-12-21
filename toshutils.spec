@@ -12,6 +12,11 @@ Patch2:		toshutils-2.0.1-crash.patch.bz2
 Patch3:		toshutils-2.0.1-x86_64-support.patch.bz2
 Patch4:		toshutils-2.0.1-gcc4.patch.bz2
 URL: 		https://www.buzzard.me.uk/toshiba/index.html
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gtk+1.2-devel X11-devel byacc xmessage
 
 %description
